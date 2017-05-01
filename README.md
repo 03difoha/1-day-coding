@@ -1,6 +1,6 @@
-# Coding and app-making for beginners
+# Coding for the web
 
-## Day 1 AM
+## AM
 
 1. Welcome & introductions
 * [The plan for this course](#what-is-the-plan)
@@ -32,31 +32,23 @@ So `lunch <br>` will be at around **1pm** for 1 hour.
 
 We aim to wrap up by **4pm**.
 
-### Two words about ourselves
+### Two words about myself
 
-<!-- * **Matteo** studied graphic design. He also taught himself to code. He built social platforms and educational games for the BBC, Science Museum and now teaches Web design and coding at Ravensbourne.  -->
+<!-- I'm a Third year Web Media student at Ravensbourne. I work as a freelance web developer and I'm really passionate that everyone should get creative online. I will aim to not use *jargon*, and will try to relay technical stuff into laymans terms concerning the web. -->
 
-<!-- * **Aimee** studied fashion design, makes clothes and websites. She is the *jargon buster*, the bridge between beginners and professional coders. -->
+**I'm not a computer scientist**, I learnt to code by myself through experimenting and tinkering.
 
-**No computer scientists**, we learnt to code by ourselves through experimenting and tinkering.
-
-We were recently in your shoes and want to show you that it's easy to get started and anyone can give it a go!
+I was recently in your shoes and want to show you that it's easy to get started and anyone can give it a go!
 
 ### Introduce each other
 
-We want this course to be **informal** and relaxed, so if you have any questions at any time just ask. We're also going to ask you many **questions**!
+We want this course to be **informal** and relaxed, so if you have any questions at any time just ask. 
 
 We'd like you to introduce yourself to your neighbour. Then we'll ask you to introduce each other to the rest of the group.
 
 1. A bit about yourself
 * How did you hear about this course?
 * Why are you on this course?
-
-<!--* What is your experience with coding so far?-->
-
-<!--You can jot down the answers on post-its and we'll then stick them on the wall...-->
-
-<!-- make sure we ask questions to the people that are being introduced! -->
 
 <!--
 
@@ -81,21 +73,23 @@ We're not here to talk at you, but to work with you and we want you to **work to
 ### GitHub
 
 All the course material is on GitHub :octocat:
-[**github.com/03difoha/AppsFromScratch**](https://github.com/03difoha/AppsFromScratch)
+[**https://github.com/03difoha/1-day-coding**](https://github.com/03difoha/1-day-coding)
 
-Including notes from each session, exercises, sample code, presentations and links to learn more!
+Including notes from todays session, exercises, sample code, presentations and links to learn more!
 
 
 # What is the plan?
 
 When	| What
 ---	| ----
-![](../img/day-1.jpg) | On the first day we discuss key concepts around apps (interface, logic, data) and start coding with **HTML** & **CSS**.
-![](../img/day-2.jpg) | We introduce the principles of **programming** and start playing with **JavaScript**.
-![](../img/day-3.jpg) | Where to find **data** and how to use it programmatically. Your app's data has to be stored somewhere!
-![](../img/day-4.jpg) | You will use JavaScript _libraries_ to speed up your development and learn how to troubleshoot your code, aka _debugging_.
-![](../img/day-5.jpg) | By this point you have a rough **app prototype**, which you can then hack to apply *your own* ideas and content.
-![](../img/day-6.jpg) | Tweak your app prototype. Celebrate your achievements, and take away free resources to continue your learning journey.
+![](10am) | Introduction to coding for the web. Discuss key concepts around website (Information, images, Interface,) 
+![](11am) | Coding with **HTML**.
+![](12am) | Get stylish with **CSS**
+![](1pm) | Lunch Time
+![](2pm) | User experience design
+![](3pm) | Debugging, finishing touches and further reading.
+![](4pm) |Home time!
+
 
 
 # What is **code**?
@@ -139,13 +133,13 @@ Like natural languages, there's no *right* or *wrong* way to do it.
 **Today** you're going to learn **2 new languages**: HTML and CSS.
 
 
-# What is an app?
+# What is an website?
 
-Let's sketch a **working definition** of *app*.
+Let's sketch a **working definition** of *website*.
 
 How do you explain what an app is to someone or something who's never seen/used one, like an *alien*?
 
-![](assets/et.png)
+👽
 
 <!--
 ### Your turn
@@ -155,28 +149,19 @@ Pretending one of us is an *alien*, let's ask some obvious questions and jot dow
 If people answer with jargon, like *software* or *download*, then we ask them to explain those too to our *alien*.
 -->
 
-* What does an app **look like**?  
-* How do you **interact** with an app? Do you speak to it, do you shake it etc?
-* What are apps **made out of**?
-* **Who uses** apps? Why?
+* What does an website **look like**?  
+* How do you **interact** with an website? Do you speak to it, do you shake it etc?
+* What are websites **made out of**?
+* **Who uses** websites? Why?
 
-### What is an app, then?
+### What is an website, then?
 
-There is no clear-cut definition of *app*.
+There is no clear-cut definition of *website*.
 
-For the sake of this course, we like to think of apps as small **digital tools** that are **connected** to the Web.
+For the sake of this course, we like to think of websites as **pages** containing information that are **connected** to the Web.
 
-To use an analogy, if the internet is like a *library* an app is like a *ladder*, which you use to help access specific books. In this case books are like websites, or web services such as databases.
+To use an analogy, if the internet is like a *library* an website is like a *ladder*, which you use to help access specific books, i.e specific information or services.
 
-![](assets/mocooo.jpg)
-
-Apps generally have a specific function, or a small set of functions. They are not trying to do everything.
-
-![](assets/swiss-army-knife.png)
-
-This is *not* a good app. It is not **usable**, even though all the tools it features could be usable (and possibly useful) on their own.
-
-Good apps do **one thing**, and do it well.
 
 <!--
 ### **How long** does it take to make an **app**?
