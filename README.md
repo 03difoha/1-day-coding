@@ -14,7 +14,7 @@ If you're reading this then you've already managed the hard part.
 
 ![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg)
 
-This course is a laid back introduction to web development and coding. We are here to understand the basics of how websites are built have some fun with them.
+This course is a laid back introduction to web development and coding. We are here to understand the basics of how website's are built have some fun with them.
 
 
 ### When is lunch?
@@ -23,7 +23,7 @@ Research shows that people focus much better when they know what time they're go
 
 We will have a 10 minute break at 11:30 for tea/coffee
 
-*lunch* will be at around **1pm** for 1 hour.
+*lunch* will be at around **12:30pm** for 1 hour.
 
 We aim to wrap up by **4pm**.
 
@@ -39,7 +39,7 @@ I was recently in your shoes and want to show you that it's easy to get started 
 
 This course will be **informal** and relaxed, so if you have any questions at any time just ask. 
 
-We'd like you to introduce yourself to your neighbour. Then we'll ask you to introduce each other to the rest of the group.
+I'd like you to introduce yourself to your neighbour. Then we'll ask you to introduce each other to the rest of the group.
 
 * A bit about yourself
 * How did you hear about this course?
@@ -50,11 +50,11 @@ This course is about getting **creative** with **code**.
 
 Getting familiar with how coders work day to day, and experiencing the **design and development process** first-hand. How to take an idea from zero to working prototype.
 
-For many of you, this will be a **memorable day**. You'll write your first code using **HTML**, **CSS**, 
+For many of you, this will be a **memorable day**. You'll write your first code using **HTML** and **CSS**, 
 
-It's going to be **challenging** and we want to make sure that you also have **fun**!
+It's going to be **challenging** and I want to make sure that you also have **fun**!
 
-I will try not to talk at you too much, but to work with help each other.
+I will try not to talk at you too much!
 
 
 
@@ -62,9 +62,6 @@ I will try not to talk at you too much, but to work with help each other.
 
 All the course material is on GitHub :octocat:
 [**https://github.com/03difoha/1-day-coding**](https://github.com/03difoha/1-day-coding)
-
-Including notes from todays session, exercises, sample code, presentations and links to learn more!
-
 
 # What is the plan?
 
@@ -98,21 +95,21 @@ All these elements can be used to create different websites:
 * Video + Text = blog
 * Text + Audio = online poetry
 
-Have a think about what kind of website you want to make. To get inspired think about:
+Have a think about what kind of website you want to make. To get inspired, think about:
 
 * Your hobbies i.e. a website with information about premier league teams, or the history of cycling etc..
-* Do you have content your have created yourself? i.e. photos?, poetry?, graphic designs? CV information?
-* are you creative? tell a story with images, text and sounds you find online.
+* Do you have content you have created yourself? i.e. photos? poetry? graphic designs? CV information?
+* Are you creative? tell a story with images, text and sounds you find online.
 
-Spend the next 20 minutes gathering content for your, This should include text and images at least.
+Spend the next 30 minutes gathering content for your website, This should include text and images at least.
 If you aren't sure what to do, just pick some interesting text and images for now and you can change them after.
 
 ### Content Resources
 
 * Text: [Public Poetry](http://www.public-domain-poetry.com/)
 * Cool Images: [unsplash.com](https://unsplash.com/) 
-* Free Video:[archive](https://archive.org/details/movies)
-* Stock free Music [Purple Planet soundcloud](https://soundcloud.com/purpleplanetmusic)
+* Free Video: [Archive](https://archive.org/details/movies)
+* Stock free Music: [Purple Planet soundcloud](https://soundcloud.com/purpleplanetmusic)
 
 
 # Coding
@@ -124,7 +121,7 @@ Can you give me some examples?
 
 #### [...] code
 
-*Morse code*, *post code*, *dress code*, *genetic code*, *highway code*, *scouts code...
+*Morse code*, *post code*, *dress code*, *genetic code*, *highway code*, *scouts code*...
 
 What do you think all of these have in common with each other?
 
@@ -195,9 +192,9 @@ We're going to learn how to:
 
 * Write HTML to **structure** your website
 	* Create several types of **text** (paragraphs, headings)
-	* Create **inputs** (dropdowns, buttons, text boxes)
 	* Create **links** to other Web pages
 	* Add **images**
+	* Add **sound** or **video**
 
 * Write CSS to **style** your website
 	* Choose **typography**
@@ -262,15 +259,15 @@ Every HTML document, at the bare bones, needs to have this structure.
 
 #### Head
 
-> In the `head` edit your app `title` by changing the text in between the `<title> ... </title>` tags.
+> In the `head` edit your website `title` by changing the text in between the `<title> ... </title>` tags.
 
 What you put in the `head` is not visible to the user.
 
-Later, you'll add links to external resources like *stylesheets* and *meta* information.
+Later, you'll add links to external resources like *stylesheets*.
 
 #### Body
 
-In the `body` you will put all the **interface elements** that are visible to the user.
+In the `body` you will put all the content that is visible to the user.
 
 
 ## Let's start building
@@ -308,7 +305,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 ```html
 <section>
 	...
-	<p>Swap skills and time with people in your community!</p>
+	<p>Find Skilled people in your community!</p>
   	<p>Just choose an activity to get started.</p>
 </section>
 ```
@@ -343,7 +340,7 @@ just above the closing `</body>` tag.
 
 ![](assets/hipsterlogogenerator.png)
 
-If you want a logo We recommend [hipsterlogogenerator.com](https://www.hipsterlogogenerator.com) for quick and easy hipster logos :)
+If you want a logo I recommend [hipsterlogogenerator.com](https://www.hipsterlogogenerator.com) for quick and easy hipster logos :)
 
 > Take a couple of minutes to quickly make your own fancy logo.
 
@@ -378,7 +375,7 @@ If you're taking an image from the web you need to use the link to the image alo
 Don't worry just now if it's too big, we'll resize it later on.
 
 # Tunage
-If you found some music from [purple planet](https://soundcloud.com/purpleplanetmusic):
+If you found some music from [purple planet](https://soundcloud.com/purpleplanetmusic) on Soundcloud:
 
 > Click the share button on the track you want.
 
@@ -394,7 +391,7 @@ If you found some music from [purple planet](https://soundcloud.com/purpleplanet
 
 # So far so good
 
-Now its time to add some of your main content to your site.
+Now its time to add some of your main content to the site.
 
 >use the techniques I have just shown you to add one image and one paragraph to the next two sections like so 
 
@@ -453,6 +450,9 @@ to link our sections to our link elements we must give our sections a correspond
 
 Now when we publish our website and click the links we should take us to each section. Easy!
 
+# Lunch time
+see you back here in one hour :)
+
 # Styling
 
 Now the stylish part: **CSS**!
@@ -462,9 +462,6 @@ There's a `link` in the `head` of your app which points to a CSS file called **s
 ```html
 <link rel="stylesheet" href="css/style.css">
 ```
-
-You can have more than just one CSS file, and we'll show you how it's good practice to work on several small files rather than one long document you may get lost into.
-
 
 #### CSS basics
 
@@ -512,7 +509,7 @@ p
 
 #### Play around a bit
 
-> Let's spend the next 20 minutes getting familiar with CSS. It doesn't matter if your website looks a bit funny for now. Things you can do:
+> Let's spend the next 30 minutes getting familiar with CSS. It doesn't matter if your website looks a bit funny for now. Things you can do:
 
 > * change the `color` of your `h1` or `h2` elements
 > * align some elements to the `center` (*google* how to do it)
@@ -543,7 +540,7 @@ You can also play with this code and change the way your favourite websites look
 
 #### Fonts
 
-Text is the major carrier of information on an website, so it's good practice to start with **typography**, or *type setting*. That means defining how texts are going to look, which fonts your website is going to use, and the proportions between them in your website layout.
+Text is the major carrier of information on a website, so it's good practice to start with **typography**, or *type setting*. That means defining how texts are going to look, which fonts your website is going to use, and the proportions between them in your website layout.
 
 > You can grab a free **font** from [Google Fonts](https://fonts.google.com/):
 
@@ -606,12 +603,12 @@ html
 ```
 
 
-> 1. Find an image you like on [freestocktextures.com/](https://freestocktextures.com/)
+> * Find an image you like on [freestocktextures.com/](https://freestocktextures.com/)
 > * Secondary click on the image. (Right click for PC, Two finger click for Mac)
 > * **Copy Image Address**. This should copy the images URL to your clipboard. Paste it into a new tab if you don't believe me.
 > * **Paste** it in your `style.css` inside the `body` `background-image` rule like so
 
-> ```css
+ ```css
 html
 {
 	background-image: url('https://media.freestocktextures.com/example.jpg');
