@@ -447,7 +447,7 @@ p
 
 #### Play around a bit
 
-> Let's spend the next 5-10 minutes getting familiar with CSS. It doesn't matter if your website looks a bit funny for now. Things you can do:
+> Let's spend the next 20 minutes getting familiar with CSS. It doesn't matter if your website looks a bit funny for now. Things you can do:
 
 > * change the `color` of your `h1` or `h2` elements
 > * align some elements to the `center` (*google* how to do it)
@@ -462,7 +462,7 @@ Part of learning to code and being a coder is searching for answers, every day. 
 
 **All the answers can be found on the Web! As coders, we must get used to searching online for solutions.**
 
-#### Inspect websites you like
+<!-- #### Inspect websites you like
 
 Did you know, you can see the code which has created every site on the Web? You can use the **Web Inspector** to do this. It's like x-ray specs for websites.
 
@@ -474,16 +474,18 @@ You can also play with this code and change the way your favourite websites look
 
 > Go to a site you like, right-click > `Inspect` and then see if you can find which colours it uses.
 
+-->
+
 #### Fonts
 
 Text is the major carrier of information on an website, so it's good practice to start with **typography**, or *type setting*. That means defining how texts are going to look, which fonts your website is going to use, and the proportions between them in your website layout.
 
 > You can grab a free **font** from [Google Fonts](https://fonts.google.com/):
 
-> 1. Pick a typeface you like
-> * Click on the red `+` button (in the top right corner of the selected font)
-> * Toggle the `family selected` box (black bar at the bottom)
-> * Copy and paste the `embed code` into your Thimble (between your <head> tags)
+ * Pick a typeface you like
+ * Click on the red `+` button (in the top right corner of the selected font)
+ * Toggle the `family selected` box (black bar at the bottom)
+ * Copy and paste the `embed code` into your Thimble (between your <head> tags)
 
 >	Where? Before `style.css`
 
@@ -523,7 +525,11 @@ Then you can set **more specific rules** for headings, paragraphs and bold eleme
 
 #### Background images
 
-You can add images to your app via CSS. This is useful if you want to set different images for different screen sizes (eg: one for mobile, a different one for tablets) as well as fine-tuning how your images should display.
+You can add background images to your website via CSS. This is useful if you want to set different images for different screen sizes (eg: one for mobile, a different one for tablets) as well as fine-tuning how your images should display.
+
+Since text sits on top of your background, its a good idea to to keep background images fairly plain and not too bright in colour. If you pick a very bright or complex image it might make your text difficut to read.
+
+A design consideration like this is known as *User Experience Design*
 
 > In your `style.css` create a new `background-image` rule for `html`
 
@@ -534,11 +540,8 @@ html
 }
 ```
 
-You can upload your own image files to Thimble (if they're smaller than 3MB), or use image links from the Web (provided they're licensed for re-use).
 
-For now, we'll use [03difoha.github.io](https://03difoha.github.io), where you can find beautiful, high-res pictures that are free to use for *whatever* purpose you want. Amazing!
-
-> 1. Find an image you like on [03difoha.github.io](https://03difoha.github.io)
+> 1. Find an image you like on [freestocktextures.com/](https://freestocktextures.com/)
 > * Secondary click on the image. (Right click for PC, Two finger click for Mac)
 > * **Copy Image Address**. This should copy the images URL to your clipboard. Paste it into a new tab if you don't believe me.
 > * **Paste** it in your `style.css` inside the `body` `background-image` rule like so
@@ -546,7 +549,7 @@ For now, we'll use [03difoha.github.io](https://03difoha.github.io), where you c
 > ```css
 html
 {
-	background-image: url('https://03difoha.github.io/example.jpg');
+	background-image: url('https://media.freestocktextures.com/example.jpg');
 }
 ```
 
@@ -559,7 +562,7 @@ We can achieve that with `background-size`. This property can take various value
 
 > Add `background-size: cover;` to the `html` rule.
 
-> ```css
+```css
 html
 {
 	background-image: url('https://03difoha.github.io/example.jpg');
@@ -569,7 +572,7 @@ html
 
 Now the image *covers* the content of your app, ie the `body` but you have probably noticed that it doesn't cover the *whole browser window*. The last touch we can add to the background image, to make it cover the whole browser window is adding `background-attachment: fixed;`
 
-> ```css
+```css
 html
 {
 	background-image: url('https://03difoha.github.io/example.jpg');
@@ -578,25 +581,6 @@ html
 }
 ```  
 
-
-
-* Introduce **Web Inspector**, HTML and CSS tabs.
-
-
-
-* CSS **comments**
-
-* Style `select` and `button`
-	* `border: none;`
-	* `border-radius`
-	* `margin`
-	* `padding`
-* Colours
-	* Web inspector colour picker (maybe pick a colour from Facebook). Everything is lost on *page refresh* so need to copy-paste into our code.
-	* `background`
-	* `color`
-	* `border-color`
-	* Check out [Kuler](https://color.adobe.com) and/or [Flat UI colors](https://flatuicolors.com/) for inspirations
  
 
 ### Final touches
@@ -632,20 +616,8 @@ html
 	}
 	```
 
-* Make the app look proper on a phone. Google `how to stop phone zooming out pages`
 
-* Make the app **full screen**. Google `how to hide address bar in mobile browser` and you should find [this tutorial](http://www.html5rocks.com/en/mobile/fullscreen/)
 
-* Add the app to your phone's **home screen**
-
-	`<link rel="apple-touch-icon" href="blabla.png">`
-
-* Transparency?
-
-* Take inspiration from these fancy demos by Codrops:
-	* [Custom select elements](http://tympanus.net/codrops/2014/07/10/inspiration-for-custom-select-elements/)
-	* [Minimal form interface](http://tympanus.net/codrops/2014/04/01/minimal-form-interface)
-	* [Natural language form](http://tympanus.net/codrops/2013/05/21/natural-language-form-with-custom-input-elements)
 
 
 
