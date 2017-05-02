@@ -4,8 +4,8 @@
 
 1. Welcome & introductions
 * [The plan for this course](#what-is-the-plan)
-* [What is code?](#what-is-code****)
-* [What is an app?](#what-is-an-app)
+* [What is code?](#what-is-code)
+* [What is an website?](#what-is-an-website)
 * [Key concepts](#key-concepts): interface, data and logic
 * [Your project brief](#your-brief)
 * [Workshop](#lets-code): HTML & CSS
@@ -82,13 +82,13 @@ Including notes from todays session, exercises, sample code, presentations and l
 
 When	| What
 ---	| ----
-![](10am) | Introduction to coding for the web. Discuss key concepts around website (Information, images, Interface,) 
-![](11am) | Coding with **HTML**.
-![](12am) | Get stylish with **CSS**
-![](1pm) | Lunch Time
-![](2pm) | User experience design
-![](3pm) | Debugging, finishing touches and further reading.
-![](4pm) |Home time!
+(10am) | Introduction to coding for the web. Discuss key concepts around website (Information, images, Interface,) 
+(11am) | Coding with **HTML**.
+(12am) | Get stylish with **CSS**
+(1pm) | Lunch Time
+(2pm) | User experience design
+(3pm) | Debugging, finishing touches and further reading.
+(4pm) |Home time!
 
 
 
@@ -186,62 +186,30 @@ In 3 days you will **get started with coding** and by the end you will:
 
 ## Key concepts
 
-### Interface
+### Content
 
-The parts of the app you directly interact with (touch, read, click, speak to etc.)
+This is the information that you find on a website. Content can come in many forms such as text, images, video and audio.
 
-A good interface must be *usable* and should align to a user's *mental models* (how does s/he expect the interface to work).
+Good content is informative, interesting and concise. 
 
-### Data
+### User experience
 
-The *fuel* of an app, the raw ingredients that the interface presents to you (more or less *cooked*).
+A good user experience is when you enter a website and can find what you are looking for quickly and easily.
 
-Data is also the information that you provide an app with: the username you type in, the pictures you upload, the geo-location coordinates apps stream...
+A bad user experience is when a website is cluttered and confusing.
 
-### Logic
+### Design
 
-The **coded rules** that determine how the app interface reacts to your *inputs*, how it manipulates data and how it presents it to you (*output*).
+Design principles help us style our content in a way that is user friendly.
 
-At its core, the logic building block of an app is a statement that sounds like `if this, then that`, eg: `if you click on this button, the app will show you this section`.
-
-Many `if this then that` blocks can build quite complex behaviours.
+This can mean, legible font, aesthetically pleasing colours and mobile responsiveness.
 
 
 # Your brief
 
-### Make an **app** that helps **people** sort through **data** to **find** who/what they are looking for.
+### Make a **website** that has interesting, concise content and is designed to be user friendly.
 
-**The *who/what* is up to you**. People may be looking for other people in their community to do something together, or they may be looking for food recipes, places to go, books to read, films to watch..
-
-No matter which data the app uses, its **logic** will be the same:
-
-1. **Load data** from an online database
-* Capture **user inputs**, when they click on buttons, type into text boxes or choose from a dropdown menu etc.
-* **Sort data** according to user choices, for instance filtering out data that doesn't match their choices
-* Present a human-readable **output**
-
-#### Interface
-
-This is what we're focusing on today.
-
-Here's an initial sketch of how the app may look and work.
-
-[![](assets/monochrome_moqup.png)](https://app.moqups.com/aimeebethmj@gmail.com/424uOp4p55/view/page/a80b23701)
-
-#### Logic
-
-Next week we'll teach you how to use JavaScript to assign *behaviour* to your interface, coding logic like `if you click this button, then do XYZ`.
-
-We'll also show you that you don't need to write all this code from scratch. There are plenty of ready-made code *libraries* that you can use in your own project. No need to reinvent the wheel!
-
-#### Data
-
-We'll show you how to create structured data, aka a **database**.
-
-No scary formula or data crunching though!
-
-On week 5 and 6 you will change the data to make your app serve your own purposes.
-
+**The *who/what* is up to you**. You could create a portfolio for yourself, a photography album, a online CV or even a page of recipes for your favorite food.
 
 # Let's code
 
@@ -293,8 +261,8 @@ We're going to learn how to:
 ## Step by step
 
 > Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in with these details:
-> * Email: `appsfromscratch`
-> * Password: `Letme1n!`
+> * Email: `1daycode`
+> * Password: `1D4yc0d3`
 
 > Then click on `Start a project from scratch`.
 
@@ -376,19 +344,19 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 ![](assets/headings.jpg)
 
-> Inside the first `section`, add a **heading** `h1` and a **sub-heading** `h2`. These will be the most important pieces of information of your app's main page.
+> Inside the first `section`, add a **heading** `h1` and a **sub-heading** `h2`. These will be the most important pieces of information of your Website's main page.
 
 > ```html
 <section>
 	...
-	<h1>Your app name</h2>
+	<h1>Your Website name</h2>
 	<h2>What it does</h2>
 </section>
 ```
 
 #### Paragraphs
 
-> Write a paragraph to explain how your app works, and what you want people to do first.  
+> Write a paragraph to explain how your website works, and what you want people to do first.  
 
 > ```html
 <section>
@@ -400,6 +368,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 `p` is for *paragraph*
 
+<!--
 #### Dropdown
 
 This is the first interactive element of your app.
@@ -433,6 +402,7 @@ It's a set of `options` that people can choose from.
 	...
 </section>
 ```
+-->
 
 #### Hyperlinks
 
@@ -506,12 +476,7 @@ Don't worry just now if it's too big, we'll resize it later on.
 
 > Now click `Publish` to see how your app looks so far. :+1:
 
-
-# Coding and app-making for beginners
-
-## Day 1 PM
-
-### Styling
+# Styling
 
 Now the stylish part: **CSS**!
 
@@ -570,7 +535,7 @@ p
 
 #### Play around a bit
 
-> Let's spend the next 5-10 minutes getting familiar with CSS. It doesn't matter if your app looks a bit funny for now. Things you can do:
+> Let's spend the next 5-10 minutes getting familiar with CSS. It doesn't matter if your website looks a bit funny for now. Things you can do:
 
 > * change the `color` of your `h1` or `h2` elements
 > * align some elements to the `center` (*google* how to do it)
@@ -599,7 +564,7 @@ You can also play with this code and change the way your favourite websites look
 
 #### Fonts
 
-Text is the major carrier of information on an app, so it's good practice to start with **typography**, or *type setting*. That means defining how texts are going to look, which fonts your app is going to use, and the proportions between them in your app layout.
+Text is the major carrier of information on an website, so it's good practice to start with **typography**, or *type setting*. That means defining how texts are going to look, which fonts your website is going to use, and the proportions between them in your website layout.
 
 > You can grab a free **font** from [Google Fonts](https://fonts.google.com/):
 
@@ -701,7 +666,7 @@ html
 }
 ```  
 
-<!--
+
 
 * Introduce **Web Inspector**, HTML and CSS tabs.
 
@@ -720,8 +685,8 @@ html
 	* `color`
 	* `border-color`
 	* Check out [Kuler](https://color.adobe.com) and/or [Flat UI colors](https://flatuicolors.com/) for inspirations
- -->
-<!--
+ 
+
 ### Final touches
 
 * Media queries
@@ -769,10 +734,15 @@ html
 	* [Custom select elements](http://tympanus.net/codrops/2014/07/10/inspiration-for-custom-select-elements/)
 	* [Minimal form interface](http://tympanus.net/codrops/2014/04/01/minimal-form-interface)
 	* [Natural language form](http://tympanus.net/codrops/2013/05/21/natural-language-form-with-custom-input-elements)
--->
 
+
+
+
+
+<!--
 ### License
 
 [![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-nc-sa/4.0)
+-->
