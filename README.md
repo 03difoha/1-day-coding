@@ -79,6 +79,10 @@ When	| What
 
 # Content: What forms of media are online?
 
+
+
+
+
 How many types of content can you think of that you have seen on a website?
 
 
@@ -96,13 +100,13 @@ All these elements can be used to create different websites:
 * Video + Text = blog
 * Text + Audio = online poetry
 
-Have a think about what kind of website you want to make. To get inspired think about
+Have a think about what kind of website you want to make. To get inspired think about:
 
 * Your hobbies i.e. a website with information about premier league teams, or the history of cycling etc..
 * Do you have content your have created yourself? i.e. photos?, poetry?, graphic designs? CV information?
 * are you creative? tell a story with images, text and sounds you find online.
 
-Spend the next 20 minutes gathering at least three types of content for your site.
+Spend the next 20 minutes gathering content for your, This should include text and images at least.
 If you aren't sure what to do, just pick some interesting text and images for now and you can change them after.
 
 ###Content Resources
@@ -147,18 +151,6 @@ Code is **instructions** to a computer: extremely powerful yet fundamentally *th
 * **Observing** how the computer responds to your inputs and adapting them until it works
 
 **Today** you're going to learn **2 new languages**: HTML and CSS.
-
-
-
-## Key concepts recap
-
-### Content
-
-This is the information that you find on a website. Content can come in many forms such as text, images, video and audio.
-
-Good content is informative, interesting and concise. 
-
-
 
 
 # Your brief
@@ -313,7 +305,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 #### Paragraphs
 
-> Write a paragraph to explain how your website works, and what you want people to do first.  
+> Write a paragraph to explain what the website if for.  
 
 ```html
 <section>
@@ -339,11 +331,13 @@ You can add **hyperlinks** to our content using the `a` element.
 
 `a` is for *anchor* :anchor:
 
-> Add in a little credit at the bottom of your page, just above the closing `</body>` tag.
+> We can use this to add in a credit at the bottom of your page for any stock content you used.
+
+just above the closing `</body>` tag.
 
 ```html
 	...
-	<p>Made with love by <a href="http://example.com"> Your Name</a></p>
+	<p>Music by <a href="www.purple-planet.com">http://www.purple-planet.com/</a></p>
 </body>
 ```
 
@@ -351,9 +345,11 @@ You can add **hyperlinks** to our content using the `a` element.
 
 ![](assets/hipsterlogogenerator.png)
 
-It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogogenerator.com) for quick and easy hipster logos :)
+If you want a logo We recommend [hipsterlogogenerator.com](https://www.hipsterlogogenerator.com) for quick and easy hipster logos :)
 
 > Take a couple of minutes to quickly make your own fancy logo.
+
+>If you don't want a logo you can put an image you found earlier in here.
 
 > To place your logo in your HTML document create an `img` element inside the first `section`. `img` elements don't need closing tags (it's one of the exceptions to the general rule of closing tags).
 
@@ -383,11 +379,62 @@ If you're taking an image from the web you need to use the link to the image alo
 
 Don't worry just now if it's too big, we'll resize it later on.
 
+# So far so good
 
+Now its time to add some of your main content to your site.
+
+>use the techniques I have just shown you to add one image and one paragraph to the next two sections like so 
+
+```html
+<section>
+<img src="http://placekitten.com/200/300">
+<p>blahblahblahblah</p>
+</section>
+
+<section>
+<img src="http://placekitten.com/200/300">
+<p>blahblahblahblah</p>
+</section>
+```
 ### Publish your project
 
-> Now click `Publish` to see how your app looks so far. :+1:
+> Now click `Publish` to see how your website looks so far. :+1:
 
+##Navigation
+
+now we have some sections with content in, we need to allow users to *nav*igate to each of them effectively.
+
+We do this by adding a <nav> element (suprising I know)
+
+> add the following code underneathe the first <h1> element
+
+<nav>
+    <a href="index.html#chapter1">Chapter 1</a>
+    <a href="index.html#chapter2">Chapter 2</a>
+    <a href="index.html#chapter3">Chapter 3</a>
+  </nav>
+  
+Now your probably thinking "I've seen those before..those are links!" Yes thats correct!
+
+except these links don't leave our website, they just point us to certain areas, indicated by "#chapterx"
+
+Remember, computers are very literal and need our help to function as we want them.
+
+to link our sections to our link elements we must give our sections a corresponding ID, like a passport
+
+> inside the first part of each section tag add:
+
+```html
+<section id="chapter1">
+<img src="http://placekitten.com/200/300">
+<p>blahblahblahblah</p>
+</section>
+
+<section id="chapter2">
+<img src="http://placekitten.com/200/300">
+<p>blahblahblahblah</p>
+</section>
+```
 # Styling
 
 Now the stylish part: **CSS**!
