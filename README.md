@@ -372,7 +372,7 @@ If you're taking an image from the web you need to use the link to the image alo
 
 > Right-click on the image and `Copy Link Address`. Then paste it inside `src=" "`
 
-> ```html
+```html
 <section>
 	<img src="http://placekitten.com/200/300">
 </section>
@@ -487,16 +487,16 @@ Text is the major carrier of information on an website, so it's good practice to
 
 >	Where? Before `style.css`
 
->	```html
+```html
 	<head>
 		...
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	```
+```
 > * In `style.css`, define the font for the `body` element (all other elements will inherit it).
 
->	```css
+```css
 body
 {
 	font-family: 'Lato', sans-serif;
@@ -527,7 +527,7 @@ You can add images to your app via CSS. This is useful if you want to set differ
 
 > In your `style.css` create a new `background-image` rule for `html`
 
-> ```css
+```css
 html
 {
 	background-image: url('');
