@@ -12,7 +12,7 @@
 
 If you're reading this then you've already managed the hard part.
 
-![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg =250)
+![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg)
 
 This course is a laid back introduction to web development and coding. We are here to understand the basics of how websites are built have some fun with them.
 
@@ -21,7 +21,9 @@ This course is a laid back introduction to web development and coding. We are he
 
 Research shows that people focus much better when they know what time they're going to eat...
 
-So `lunch <br>` will be at around **12:30pm** for 1 hour.
+We will have a 10 minute break at 11:30 for tea/coffee
+
+*lunch* will be at around **1pm** for 1 hour.
 
 We aim to wrap up by **4pm**.
 
@@ -69,10 +71,12 @@ Including notes from todays session, exercises, sample code, presentations and l
 When	| What
 ---	| ----
 (10am) | Content: What forms of media are online? Find content to use for our sites.
-(11am) | Coding with **HTML**.
-(12am) | Get stylish with **CSS**
-(1pm) | Lunch Time
-(2pm) | User experience design
+(11am) |Introduction to **HTML**.
+(11:30am) | Tea break
+(11:40am) | Add all our content
+(12:30) | Lunch time
+(1:30pm) | Intro to **CSS**
+(2:30pm) | Get more stylish with **CSS**
 (3pm) | Debugging, finishing touches and further reading.
 (4pm) |Home time!
 
@@ -374,11 +378,13 @@ If you're taking an image from the web you need to use the link to the image alo
 Don't worry just now if it's too big, we'll resize it later on.
 
 # Tunage
-If you found some music from [purple planet](https://soundcloud.com/purpleplanetmusic) then click the share button on the track you want. ( looks like this []!(http://i.imgur.com/LXM8TBK.png) )
+If you found some music from [purple planet](https://soundcloud.com/purpleplanetmusic):
 
-Click Embed, and copy the code.
+> Click the share button on the track you want.
 
-then paste is at the end of the *body* like so
+> Click Embed, and copy the code.
+
+> Paste is at the end of the *body* like so
 
 ```html
 ...
@@ -629,7 +635,7 @@ html
 }
 ```
 
-Now the image *covers* the content of your app, ie the `body` but you have probably noticed that it doesn't cover the *whole browser window*. The last touch we can add to the background image, to make it cover the whole browser window is adding `background-attachment: fixed;`
+Now the image *covers* the content of your app, i.e. the `body` but you have probably noticed that it doesn't cover the *whole browser window*. The last touch we can add to the background image, to make it cover the whole browser window is adding `background-attachment: fixed;`
 
 ```css
 html
@@ -640,7 +646,13 @@ html
 }
 ```  
 
- 
+ ### Hide Soundcloud player
+
+if you don't want to see the Soundcloud player then you can add the following
+
+iframe{
+display:none;
+}
 
 ### Final touches
 
@@ -656,29 +668,97 @@ html
 	  }
 	}
 	```
-* Icons using [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
-	```css
-	.dropdown
-	{
-	  position: relative;
-	}
-	.dropdown:after
-	{
-	  content: "\f063";
-	  font-family: FontAwesome;
-	  position: absolute;
-	  top: .75em;
-	  right: .75em;
-	  font-size: 2em;
-	  pointer-events: none;
-	}
-	```
+# Resources
 
+### Code
 
+* [Codecademy](https://www.codecademy.com/) `codecademy.com`
+	
+	Free online courses to learn just about any coding language you like!
 
+* [Dash](https://dash.generalassemb.ly/) `dash.generalassemb.ly`
 
+	Free online courses to get you going in HTML, CSS and a little JavaScript
 
+* [CodeWars](http://www.codewars.com/about) `codewars.com`
+
+	Complete challenges in Javascript and improve your ranking! A fun resource for learning new tricks and comparing the many different ways to complete a task
+	
+* [CSS-Tricks](https://css-tricks.com/) `css-tricks.com`
+
+	Fantastic resource for CSS, invaluable for beginners and experienced front-end designers alike!
+	
+* [JS for cats](http://jsforcats.com/) `jsforcats.com`
+
+	Introduction to JavaScript..."So easy your human companion could do it too!" :scream_cat:
+	
+* [CSS Diner](http://flukeout.github.io) `flukeout.github.io`
+
+	A little game to help you learn CSS selectors. Type in the correct selector to complete each level. 
+	
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+
+	A set of web authoring and debugging tools built into Google Chrome. Use the DevTools to iterate, debug and profile your Web projects!
+	
+### Inspiration
+	
+* [Smashing Magazine](http://www.smashingmagazine.com/) `smashingmagazine.com`
+
+	Online magazine focused on coding and web development, covering techniques, languages, mobile, design, graphics and more
+	
+* [Creative Bloq](http://www.creativebloq.com/) `creativebloq.com`
+	
+	Online magazine providing inspiration for graphic design, web design, 3D art and more
+
+* [Niice](https://niice.co/) `niice.co`
+
+	A design search engine, drawing results from [Behance behance.net](https://www.behance.net/), [Dribble dribbble.com](https://dribbble.com/) and [Designspiration designspiration.net](http://designspiration.net/). Great if you're in need of some design inspiration!
+	
+* [Panda App](https://usepanda.com/app/#/) `usepanda.com`
+
+	Another great source of inspiration pulling results from various sources like [DesignerNews](https://www.designernews.co/) `designernews.co`, [Dribble](https://dribbble.com/) `dribbble.com`, [Behance](https://www.behance.net/) `behance.net` and [SiteInspire](http://www.siteinspire.com/) `siteinspire.com`
+
+### Design
+
+* [GoodUI](http://goodui.org/) `goodui.org`
+
+	Extensive list of good design patterns for user interfaces
+	
+* [UserOnboard](https://www.useronboard.com/) `useronboard.com`
+
+	Teardowns of major apps - a great reference for designing your interfaces	
+* [HackDesign](https://hackdesign.org/lessons) `hackdesign.org`
+
+	Learn how to design digital products, with lessons spanning from typography to UX (user experience).
+	
+* [Noun Project](https://thenounproject.com) `thenounproject.com`
+
+	Huge database of beautiful icons to use in your app
+	
+* [Colour Contrast check](http://snook.ca/technical/colour_contrast/colour.html#fg=33FF33,bg=333333)
+
+	Tool to check the readability of your colours, ensuring they're easy on the eyes
+	
+* [Abobe Color CC](https://color.adobe.com/create/color-wheel/)
+
+	Great tool to design your colour palettes
+	
+* [Random User Generator](https://randomuser.me/) `randomuser.me`
+
+	Random users for you to populate your app prototypes
+	
+* [Pttrns](http://pttrns.com/) `pttrns.com`
+
+	See how other mobile designers solve UX problems for things like calculators, calendars, search and more
+	
+* [WTF Mobile Web](http://wtfmobileweb.com/) `wtfmobileweb.com`
+
+	What not to do!
+
+* [UI patterns](http://ui-patterns.com/) `ui-patterns.com`
+
+	Great website for finding out the latest trends in user interface designs
 
 
 
