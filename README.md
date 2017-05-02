@@ -374,7 +374,7 @@ If you're taking an image from the web you need to use the link to the image alo
 Don't worry just now if it's too big, we'll resize it later on.
 
 # Tunage
-If you found some music from [purple planet](https://soundcloud.com/purpleplanetmusic) then click the share button on the track you want. (looks like this []!(http://i.imgur.com/LXM8TBK.png))
+If you found some music from [purple planet](https://soundcloud.com/purpleplanetmusic) then click the share button on the track you want. ( looks like this []!(http://i.imgur.com/LXM8TBK.png) )
 
 Click Embed, and copy the code.
 
