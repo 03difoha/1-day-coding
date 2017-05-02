@@ -303,7 +303,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 > Inside the first `section`, add a **heading** `h1` and a **sub-heading** `h2`. These will be the most important pieces of information of your Website's main page.
 
-> ```html
+```html
 <section>
 	...
 	<h1>Your Website name</h2>
@@ -315,7 +315,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 > Write a paragraph to explain how your website works, and what you want people to do first.  
 
-> ```html
+```html
 <section>
 	...
 	<p>Swap skills and time with people in your community!</p>
@@ -341,7 +341,7 @@ You can add **hyperlinks** to our content using the `a` element.
 
 > Add in a little credit at the bottom of your page, just above the closing `</body>` tag.
 
-> ```html
+```html
 	...
 	<p>Made with love by <a href="http://example.com"> Your Name</a></p>
 </body>
@@ -357,7 +357,7 @@ It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogog
 
 > To place your logo in your HTML document create an `img` element inside the first `section`. `img` elements don't need closing tags (it's one of the exceptions to the general rule of closing tags).
 
-> ```html
+```html
 <section>
 	<img src=" ">
 </section>
@@ -367,17 +367,6 @@ It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogog
 ```
 
 Every `img` requires a link - either a weblink to the image or the location of the image you're using in your files.
-
-> In Thimble, upload your logo and put the name inside `src=" "`
-
-> ```html
-<section>
-	<img src="hipsterlogo.jpg">
-</section>
-<section>
-...
-</section>
-```
 
 If you're taking an image from the web you need to use the link to the image alone.
 
