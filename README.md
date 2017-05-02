@@ -1,40 +1,34 @@
 # Coding for the web
 
-## AM
 
-1. Welcome & introductions
+* Welcome & introductions
 * [The plan for this course](#what-is-the-plan)
 * [What is code?](#what-is-code)
-* [What is an website?](#what-is-an-website)
+* [What is an website?](#what-is-a-website)
 * [Key concepts](#key-concepts): interface, data and logic
 * [Your project brief](#your-brief)
 * [Workshop](#lets-code): HTML & CSS
 
-<!--
+##Welcome! 
 
-Good morning :)
+If you're reading this then you've already managed the hard part.
 
-It is a good morning, isn't it?
+![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg)
 
-It is SO good to have you all here today!
+This course is a laid back introduction to web development and coding. We are here to understand the basics of how websites are built have some fun with them.
 
-The fact that you got out of bed on a Saturday morning, to come here and learn to code, that's real commitment. And we really admire that.
-
-We want this course to be a valuable learning experience for you all, and we want you to have as much fun learning as we have teaching!
-
--->
 
 ### When is lunch?
 
 Research shows that people focus much better when they know what time they're going to eat...
 
-So `lunch <br>` will be at around **1pm** for 1 hour.
+So `lunch <br>` will be at around **12:30pm** for 1 hour.
 
 We aim to wrap up by **4pm**.
 
 ### Two words about myself
 
-<!-- I'm a Third year Web Media student at Ravensbourne. I work as a freelance web developer and I'm really passionate that everyone should get creative online. I will aim to not use *jargon*, and will try to relay technical stuff into laymans terms concerning the web. -->
+ I'm a Third year Web Media student at Ravensbourne. I work as a freelance web developer and I'm really passionate that everyone should get creative online. I will aim to demystify *jargon*, and relay technical stuff into laymans terms concerning the web. 
 
 **I'm not a computer scientist**, I learnt to code by myself through experimenting and tinkering.
 
@@ -42,33 +36,26 @@ I was recently in your shoes and want to show you that it's easy to get started 
 
 ### Introduce each other
 
-We want this course to be **informal** and relaxed, so if you have any questions at any time just ask. 
+This course will be **informal** and relaxed, so if you have any questions at any time just ask. 
 
 We'd like you to introduce yourself to your neighbour. Then we'll ask you to introduce each other to the rest of the group.
 
-1. A bit about yourself
+* A bit about yourself
 * How did you hear about this course?
 * Why are you on this course?
 
-<!--
 
 This course is about getting **creative** with **code**.
 
 Getting familiar with how coders work day to day, and experiencing the **design and development process** first-hand. How to take an idea from zero to working prototype.
 
-For many of you, this will be a **memorable day**. You'll write your **first line of code**, and in a few weeks you'll have made **your own app**, from scratch!
-
-We're going to show you the **basics** and together we'll create an app **template** that you can then customise. The app template will connect to an online database to load data, and manipulate it in response to user inputs.
-
-Using **HTML**, **CSS** and **JavaScript**!
-
-This is an introductory course, inevitably there are parts of the process that we won't cover (such as how to market your app or package it for a specific market).
+For many of you, this will be a **memorable day**. You'll write your first code using **HTML**, **CSS**, 
 
 It's going to be **challenging** and we want to make sure that you also have **fun**!
 
-We're not here to talk at you, but to work with you and we want you to **work together** and help each other.
+I will try not to talk at you too much, but to work with help each other.
 
--->
+
 
 ### GitHub
 
@@ -82,7 +69,7 @@ Including notes from todays session, exercises, sample code, presentations and l
 
 When	| What
 ---	| ----
-(10am) | Introduction to coding for the web. Discuss key concepts around website (Information, images, Interface,) 
+(10am) | Content: What forms of media are online? Find content to use for our sites.
 (11am) | Coding with **HTML**.
 (12am) | Get stylish with **CSS**
 (1pm) | Lunch Time
@@ -91,8 +78,48 @@ When	| What
 (4pm) |Home time!
 
 
+# Content: What forms of media are online?
 
-# What is **code**?
+How many types of content can you think of that you have seen on a website?
+
+
+* Text
+* Images
+* Video
+* Audio
+
+
+All these elements can be used to create different websites:
+
+Text = online cv
+Images = photo gallery
+Text + Images = online newspaper
+Video + Text = blog
+Text + Audio = online poetry
+
+Have a think about what kind of website you want to make. To get inspired think about
+
+* Your hobbies i.e. a website with information about premier league teams, or the history of cycling etc..
+* Do you have content your have created yourself? i.e. photos?, poetry?, graphic designs? CV information?
+* are you creative? tell a story with images, text and sounds you find online.
+
+Spend the next 20 minutes gathering at least three types of content for your site.
+If you aren't sure what to do, just pick some interesting text and images for now and you can change them after.
+
+###Content Resources
+
+* Text: [Public Poetry](http://www.public-domain-poetry.com/)
+* Cool Images: [unsplash.com](https://unsplash.com/) 
+* Free Video:[archive](https://archive.org/details/movies)
+* Stock free Music [Purple Planet](http://www.purple-planet.com/jazz/4583971402), [soundcloud](https://soundcloud.com/purpleplanetmusic)
+
+
+#Coding
+### Now we have some content for our site, lets discuss how to put it on the page.
+
+firstly what *is* Code?
+
+Can you give me some examples?
 
 #### [...] code
 
@@ -110,81 +137,21 @@ Code is about
 
 If I want to communicate with **someone** that doesn't speak English, I will need to learn a language that they can understand. To communicate with you, I use English.
 
-To **talk to a computer**, we use...
+To **talk to a computer**, we need to speak code (HTML + CSS)
 
 Code is **instructions** to a computer: extremely powerful yet fundamentally *thick*.
 
 ### How do you learn to code?
 
-Remember how you learnt your first language as a child?
-
-You learnt your first language by **copying** people around you, **observing** their reactions to your actions.
-
-"If I say `mum` then that one person will respond. She also responds when I cry. She doesn't respond to other names, it seems."
-
-Learning a coding language is like **learning a new language**.
-
 * **Translating** your ideas into a language your computer understands
 
 * **Observing** how the computer responds to your inputs and adapting them until it works
 
-Like natural languages, there's no *right* or *wrong* way to do it.
-
 **Today** you're going to learn **2 new languages**: HTML and CSS.
 
 
-# What is an website?
 
-Let's sketch a **working definition** of *website*.
-
-How do you explain what an app is to someone or something who's never seen/used one, like an *alien*?
-
-👽
-
-<!--
-### Your turn
-
-Pretending one of us is an *alien*, let's ask some obvious questions and jot down some answers and key words on post-its.
-
-If people answer with jargon, like *software* or *download*, then we ask them to explain those too to our *alien*.
--->
-
-* What does an website **look like**?  
-* How do you **interact** with an website? Do you speak to it, do you shake it etc?
-* What are websites **made out of**?
-* **Who uses** websites? Why?
-
-### What is an website, then?
-
-There is no clear-cut definition of *website*.
-
-For the sake of this course, we like to think of websites as **pages** containing information that are **connected** to the Web.
-
-To use an analogy, if the internet is like a *library* an website is like a *ladder*, which you use to help access specific books, i.e specific information or services.
-
-
-<!--
-### **How long** does it take to make an **app**?
-
-This course is 24 hours long, ie **3 working days**.
-
-The point of this course is to *introduce* you to the app-making **process** and **tools**.
-
-* **Thimble**: free online code editor, live preview
-* **Firebase**: real-time database, excellent for prototyping
-* **HTML**, **CSS** and **JavaScript**: universal languages, entry point to more specialised ones (and useful to know for other jobs!)
-* **GitHub repository**: industry-standard collaborative version-control system
-
-This is an introductory course, inevitably there are parts of the process that we won't cover (such as how to market your app or package it for a specific market).
-
-In 3 days you will **get started with coding** and by the end you will:
-
-* have a solid foundation to continue learning
-* have first-hand experience of the design and development process
-* feel confident speaking about your ideas with other designers, coders and product managers
--->
-
-## Key concepts
+## Key concepts recap
 
 ### Content
 
