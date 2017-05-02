@@ -76,15 +76,9 @@ When	| What
 (3pm) | Debugging, finishing touches and further reading.
 (4pm) |Home time!
 
-
 # Content: What forms of media are online?
 
-
-
-
-
 How many types of content can you think of that you have seen on a website?
-
 
 * Text
 * Images
@@ -109,24 +103,24 @@ Have a think about what kind of website you want to make. To get inspired think 
 Spend the next 20 minutes gathering content for your, This should include text and images at least.
 If you aren't sure what to do, just pick some interesting text and images for now and you can change them after.
 
-###Content Resources
+### Content Resources
 
 * Text: [Public Poetry](http://www.public-domain-poetry.com/)
 * Cool Images: [unsplash.com](https://unsplash.com/) 
 * Free Video:[archive](https://archive.org/details/movies)
-* Stock free Music [Purple Planet](http://www.purple-planet.com/jazz/4583971402), [soundcloud](https://soundcloud.com/purpleplanetmusic)
+* Stock free Music [Purple Planet soundcloud](https://soundcloud.com/purpleplanetmusic)
 
 
-#Coding
+# Coding
 ### Now we have some content for our site, lets discuss how to put it on the page.
 
-firstly what *is* Code?
+Firstly what *is* Code?
 
 Can you give me some examples?
 
 #### [...] code
 
-*Morse code*, *post code*, *dress code*, •genetic code*, *highway code*...
+*Morse code*, *post code*, *dress code*, *genetic code*, *highway code*, *scouts code...
 
 What do you think all of these have in common with each other?
 
@@ -195,15 +189,15 @@ PC <kbd>ctrl</kbd> + <kbd>v</kbd>
 
 We're going to learn how to:
 
-* Write HTML to **structure** your app interface
+* Write HTML to **structure** your website
 	* Create several types of **text** (paragraphs, headings)
 	* Create **inputs** (dropdowns, buttons, text boxes)
 	* Create **links** to other Web pages
 	* Add **images**
 
-* Write CSS to **style** your Website
-	* Design your app **typography**
-	* Set your app **colours**
+* Write CSS to **style** your website
+	* Choose **typography**
+	* Set your **colours**
 	* **Search** for code online and integrate what you find in your project (that's what coders do most of the time!)
 
 ## Step by step
@@ -379,6 +373,19 @@ If you're taking an image from the web you need to use the link to the image alo
 
 Don't worry just now if it's too big, we'll resize it later on.
 
+# Tunage
+If you found some music from [purple planet](https://soundcloud.com/purpleplanetmusic) then click the share button on the track you want. (looks like this []!(http://i.imgur.com/LXM8TBK.png))
+
+Click Embed, and copy the code.
+
+then paste is at the end of the *body* like so
+
+```html
+...
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/299880969&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</body>
+```
+
 # So far so good
 
 Now its time to add some of your main content to your site.
@@ -400,19 +407,21 @@ Now its time to add some of your main content to your site.
 
 > Now click `Publish` to see how your website looks so far. :+1:
 
-##Navigation
+## Navigation
 
 now we have some sections with content in, we need to allow users to *nav*igate to each of them effectively.
 
-We do this by adding a <nav> element (suprising I know)
+We do this by adding a `<nav>` element (suprising I know)
 
-> add the following code underneathe the first <h1> element
+> add the following code underneathe the first `<h1>` element
 
+```html
 <nav>
     <a href="index.html#chapter1">Chapter 1</a>
     <a href="index.html#chapter2">Chapter 2</a>
     <a href="index.html#chapter3">Chapter 3</a>
   </nav>
+ ``` 
   
 Now your probably thinking "I've seen those before..those are links!" Yes thats correct!
 
@@ -435,6 +444,9 @@ to link our sections to our link elements we must give our sections a correspond
 <p>blahblahblahblah</p>
 </section>
 ```
+
+Now when we publish our website and click the links we should take us to each section. Easy!
+
 # Styling
 
 Now the stylish part: **CSS**!
