@@ -4,16 +4,15 @@
 * Welcome & introductions
 * [The plan for this course](#what-is-the-plan)
 * [What is code?](#what-is-code)
-* [What is an website?](#what-is-a-website)
-* [Key concepts](#key-concepts): interface, data and logic
+* [Key concepts](#key-concepts): Content, Design, User experience
 * [Your project brief](#your-brief)
 * [Workshop](#lets-code): HTML & CSS
 
-##Welcome! 
+## Welcome! 
 
 If you're reading this then you've already managed the hard part.
 
-![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg)
+![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg =250x)
 
 This course is a laid back introduction to web development and coding. We are here to understand the basics of how websites are built have some fun with them.
 
@@ -91,11 +90,11 @@ How many types of content can you think of that you have seen on a website?
 
 All these elements can be used to create different websites:
 
-Text = online cv
-Images = photo gallery
-Text + Images = online newspaper
-Video + Text = blog
-Text + Audio = online poetry
+* Text = online cv
+* Images = photo gallery
+* Text + Images = online newspaper
+* Video + Text = blog
+* Text + Audio = online poetry
 
 Have a think about what kind of website you want to make. To get inspired think about
 
@@ -159,17 +158,7 @@ This is the information that you find on a website. Content can come in many for
 
 Good content is informative, interesting and concise. 
 
-### User experience
 
-A good user experience is when you enter a website and can find what you are looking for quickly and easily.
-
-A bad user experience is when a website is cluttered and confusing.
-
-### Design
-
-Design principles help us style our content in a way that is user friendly.
-
-This can mean, legible font, aesthetically pleasing colours and mobile responsiveness.
 
 
 # Your brief
@@ -220,7 +209,7 @@ We're going to learn how to:
 	* Create **links** to other Web pages
 	* Add **images**
 
-* Write CSS to **style** your app interface
+* Write CSS to **style** your Website
 	* Design your app **typography**
 	* Set your app **colours**
 	* **Search** for code online and integrate what you find in your project (that's what coders do most of the time!)
@@ -298,10 +287,11 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 #### Sections
 
-> Inside the `body`, add in two `<section>` elements
+> Inside the `body`, add in three `<section>` elements
 
-> ```html
+```html
 <body>
+	<section></section>
 	<section></section>
 	<section></section>
 </body>
@@ -317,7 +307,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 <section>
 	...
 	<h1>Your Website name</h2>
-	<h2>What it does</h2>
+	<h2>What it's for</h2>
 </section>
 ```
 
@@ -335,41 +325,7 @@ In the `body` you will put all the **interface elements** that are visible to th
 
 `p` is for *paragraph*
 
-<!--
-#### Dropdown
 
-This is the first interactive element of your app.
-
-It's a set of `options` that people can choose from.
-
-> Under your headings, add in a `<select>` element. Inside that, add in some `<option>` elements.
-
-> ```html
-<section>
-	...
-	<select>
-		<option>Keep my pet</option>
-		<option>Bake a cake</option>
-		<option>Move my piano</option>
-	</select>
-	...
-</section>
-```
-
-#### Button
-
-> Next you'll need a `Find` or `Search` button. What do you think is the HTML code to make a button?
-
-> It's `<button>` :)
-
-> ```html
-<section>
-	...
-	<button>Find</button>
-	...
-</section>
-```
--->
 
 #### Hyperlinks
 
