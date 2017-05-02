@@ -12,7 +12,7 @@
 
 If you're reading this then you've already managed the hard part.
 
-![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg =250x)
+![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg =250)
 
 This course is a laid back introduction to web development and coding. We are here to understand the basics of how websites are built have some fun with them.
 
