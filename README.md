@@ -1,5 +1,7 @@
 # Coding for the web
 
+# All resources: https://github.com/03difoha/1-day-coding
+
 
 * Welcome & introductions
 * [The plan for this course](#what-is-the-plan)
