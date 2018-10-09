@@ -16,7 +16,7 @@ If you're reading this then you've already managed the hard part.
 
 ![](https://usapgroup.files.wordpress.com/2015/01/eighty-percent-of-success.jpg)
 
-This course is a laid back introduction to web development and coding. We are here to understand the basics of how website's are built have some fun with them.
+This course is a laid back introduction to web development and coding. We are here to understand the basics of how website's are built and have some fun with them.
 
 
 ### When is lunch?
@@ -31,7 +31,7 @@ We aim to wrap up by **4pm**.
 
 ### Two words about myself
 
- I'm a Third year Web Media student at Ravensbourne. I work as a freelance web developer and I'm really passionate that everyone should get creative online. I will aim to demystify *jargon*, and relay technical stuff into laymans terms concerning the web. 
+I'm a Third year Web Media student at Ravensbourne. I work as a freelance web developer and I'm really passionate that everyone should get creative online. I will aim to demystify *jargon*, and relay technical stuff into laymans terms concerning the web. 
 
 **I'm not a computer scientist**, I learnt to code by myself through experimenting and tinkering.
 
